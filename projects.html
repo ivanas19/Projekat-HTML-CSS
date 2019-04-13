@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>HTML&CSS</title>
+    
+    <style>
+        .carousel-inner img {
+            width: 80%;
+            
+        }
+        .row img {
+            width: 100%;
+        }
+        .carousel-inner div {
+            text-align: center;
+        }
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+<nav class="navbar bg-light navbar-expand-md navbar-light fixed-top">
+    <a class="navbar-brand" href="#"><img src="signature5cb25e4a30c2f.png" alt="Logo"style="width:170px;" ></a>
+
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseid">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapseid">
+
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="home.html" target="_blank">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#main">Main</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Top</a>
+            </li>
+            
+        </ul>
+    
+    </div>
+</nav>
+
+
+
+
+<div id="home">
+
+
+<div id="demo" class="carousel slide d-none d-sm-block" data-ride="carousel">
+
+	<ul class="carousel-indicators">
+		<li data-target="#demo" data-slide-to="0" class="active"></li>
+		<li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        
+	</ul>
+	
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+            <img src="1662_original.jpg">
+            <div class="carousel-caption">
+                <h1><i>Declare variables, not war</i></h1>
+            </div>
+		</div>
+		<div class="carousel-item">
+            <img src="code-coding-conceptual-270360.jpg">
+            <div class="carousel-caption">
+                <h1><i>Declare variables, not war</i></h1>
+            </div>
+		</div>
+		<div class="carousel-item">
+            <img src="black-and-white-books-business-251225.jpg">
+            <div class="carousel-caption">
+                <h1><i>Declare variables, not war</i></h1>
+            </div>
+        </div>
+        
+	</div>
+	
+	<a class="carousel-control-prev" href="#demo" data-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+    </a>
+    
+	<a class="carousel-control-next" href="#demo" data-slide="next">
+		<span class="carousel-control-next-icon"></span>
+	</a>
+</div>
+
+
+
+<div class="row d-sm-none">
+    <div class="col-12"><img src="picture1.jpg"></div>
+</div>
+
+<div class="row d-sm-none">
+    <div class="col-12"><img src="picture2.jpeg"></div>
+</div>
+
+<div class="row d-sm-none">
+    <div class="col-12"><img src="picture3.jpeg"></div>
+</div>
+
+
+
+</div>
+
+<div id="main" class="container">
+
+<div class="row" style="padding-top: 60px;">
+
+<div class="col-sm-6">
+    <h1>What is HTML?</h1>
+    <p>HTML is a computer language devised to allow website creation. These websites can then be viewed by anyone else connected to the Internet. It is relatively easy to learn, with the basics being accessible to most people in one sitting; and quite powerful in what it allows you to create. It is constantly undergoing revision and evolution to meet the demands and requirements of the growing Internet audience under the direction of the » W3C, the organisation charged with designing and maintaining the language. <br> 
+    <strong> The definition of HTML is HyperText Markup Language.</strong> <br>
+    <ul>
+        <li>HyperText is the method by which you move around on the web — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.</li>
+
+        <li>Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example).</li>
+
+        <li>HTML is a Language, as it has code-words and syntax like any other language.</li>
+    </ul>
+
+    <h4>How does it work?</h4>
+
+    HTML consists of a series of short codes typed into a text-file by the site author — these are the tags. The text is then saved as a html file, and viewed through a browser, like Internet Explorer or Netscape Navigator. This browser reads the file and translates the text into a visible form, hopefully rendering the page as the author had intended. Writing your own HTML entails using tags correctly to create your vision. You can use anything from a rudimentary text-editor to a powerful graphical editor to create HTML pages.
+    </p>
+</div>
+
+<div class="col-sm-6">
+    <h1>What is CSS?</h1>
+    <p>Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to           simplify the process of making web pages presentable.
+
+        CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text, the style of fonts, the spacing between paragraphs, how columns are sized and laid out, what background images or colors are used, layout designs,variations in display for different devices and screen sizes as well as a variety of other effects.
+        
+        CSS is easy to learn and understand but it provides powerful control over the presentation of an HTML document. Most commonly, CSS is combined with the markup languages HTML or XHTML. <br>
+
+        <h4>Advantages of CSS</h4>
+
+        <ul>
+            <li><strong>CSS saves time </strong>− You can write CSS once and then reuse same sheet in multiple HTML pages. You can define a style for each HTML element and apply it to as many Web pages as you want.</li>
+
+            <li><strong>Pages load faster</strong>− If you are using CSS, you do not need to write HTML tag attributes every time. Just write one CSS rule of a tag and apply it to all the occurrences of that tag. So less code means faster download times.</li>
+
+            <li><strong>Easy maintenance</strong>− To make a global change, simply change the style, and all elements in all the web pages will be updated automatically.</li>
+
+            <li><strong>Superior styles to HTML</strong>− CSS has a much wider array of attributes than HTML, so you can give a far better look to your HTML page in comparison to HTML attributes.</li>
+
+            <li><strong>Multiple Device Compatibility</strong>− Style sheets allow content to be optimized for more than one type of device. By using the same HTML document, different versions of a website can be presented for handheld devices such as PDAs and cell phones or for printing.</li>
+
+
+
+        </ul>
+        
+    </p>
+</div>
+
+</div> 
+
+</div>
+
+
+
+</div>
+
+
+</body>
+
+</html>
