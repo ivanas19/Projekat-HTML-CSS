@@ -1,7 +1,15 @@
+body{
+	background-image: url("album-background-blank-1089842.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+	
+}
+
 
 
 header{
-	background-image: url("header.jpg");
+	background-image: url("floral-artistic-abstract-blue-bg-header-5108.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 200px;
@@ -28,6 +36,14 @@ header img{
 p {
 	margin-top: 100px;
 	text-align: center;
+}
+
+#citat {
+	margin-top: 180px;
+}
+
+footer{
+	margin-bottom: 0px;
 }
 
 
